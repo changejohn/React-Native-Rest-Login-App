@@ -31,7 +31,7 @@ export default class Home extends Component {
         return;
       }
     };
-    request.open('POST', 'http://gumuslerim.com/home/kullanicigiris?kadi='+this.state.KullaniciAdi+'&sifre='+this.state.KullaniciSifre+'');
+    request.open('POST', 'http://website.com/home/kullanicigiris?kadi='+this.state.KullaniciAdi+'&sifre='+this.state.KullaniciSifre+'');
     request.send();
   }
     render() {
